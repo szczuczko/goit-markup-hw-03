@@ -1,0 +1,307 @@
+:root {
+  --white: #ffffff;
+  --almost-white: #e5e5e5;
+  --blue: #2196f3;
+  --almost-black: #212121;
+  --black: #000000;
+  --dark-gray: #2f303a;
+  --gray: #757575;
+  --light-gray: #f5f4fa;
+  --button-blue: #0000ff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--almost-black);
+  background-color: var(--white);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923em;
+  text-decoration: none;
+  color: var(--black);
+  letter-spacing: 0.03em;
+}
+
+.logo-blue {
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1923em;
+  color: var(--blue);
+  letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo-blue:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.nav-menu {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428em;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu li {
+  display: inline;
+}
+
+.menu-blue {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.menu {
+  text-decoration: none;
+  color: var(--almost-black);
+}
+
+.menu-blue:hover,
+.menu:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428em;
+  list-style: none;
+  letter-spacing: 0.02em;
+}
+
+.contact li {
+  display: inline;
+}
+
+.mail {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.tel {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.mail:hover,
+.tel:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.h1 {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875em;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline solid var(--button-blue);
+}
+
+.first-section,
+.first-section-list {
+  list-style: none;
+  background-color: var(--almost-white);
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.03em;
+}
+
+.h4 {
+  color: var(--almost-black);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428em;
+  text-transform: uppercase;
+}
+
+.second-section,
+.second-section-list {
+  list-style: none;
+  background-color: var(--almost-white);
+  text-align: center;
+}
+
+.h2-second-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.second-section-list li {
+  display: inline-block;
+}
+
+.third-section,
+.third-section-list {
+  list-style: none;
+  background-color: var(--light-gray);
+  font-size: 16px;
+  line-height: 1.1875em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+.h3 {
+  font-weight: 500;
+  color: var(--almost-black);
+}
+
+.h2-third-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  color: var(--almost-black);
+}
+
+footer {
+  background-color: var(--dark-gray);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923em;
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 0.03em;
+}
+
+.logo-blue-footer {
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1923em;
+  color: var(--blue);
+  letter-spacing: 0.03em;
+}
+
+.logo-footer:hover,
+.logo-blue-footer:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.7142em;
+  list-style: none;
+  letter-spacing: 0.03em;
+}
+
+.mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.mail-footer:hover,
+.tel-footer:hover,
+.address-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+.pf-button-menu {
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pf-button-menu li {
+  display: inline;
+}
+
+.pf-button-blue {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.pf-button {
+  background-color: var(--light-gray);
+  color: var(--almost-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.pf-section {
+  background-color: var(--almost-white);
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.875em;
+  letter-spacing: 0.03em;
+}
+
+.pf-section li {
+  display: inline-block;
+}
+
+.pf-section p {
+  text-align: left;
+}
+
+.h2-pf-section {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+
+.h2-pf-section:hover,
+.pf-section p:hover,
+.pf-button:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.pf-button-blue:hover {
+  text-decoration: underline solid var(--button-blue);
+}
