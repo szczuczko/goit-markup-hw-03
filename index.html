@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="Moja praca domowa nr 1" />
-    <title>Homework 2</title>
+    <title>Homework 3</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -12,7 +16,7 @@
   </head>
   <body>
     <!--Nagłówek strony-->
-    <header>
+    <header class="page-header" class="container">
       <!--Logo w nagłówku-->
       <a class="logo" href="./index.html"
         ><span class="logo-blue">Web</span>Studio</a
@@ -41,39 +45,41 @@
     <!--Główna zawartość strony-->
     <main>
       <!--Nagówek skcji głównej-->
-      <section class="h1">
-        <h1>
-          EFEKTYWNE ROZWIĄZANIA<br />
-          DLA WASZEGO BIZNESU
-        </h1>
-        <button class="button" type="button">Zamów usługe</button>
+      <section>
+        <div class="h1" class="container">
+          <h1>
+            EFEKTYWNE ROZWIĄZANIA<br />
+            DLA WASZEGO BIZNESU
+          </h1>
+          <button class="button" type="button">Zamów usługe</button>
+        </div>
       </section>
 
       <!--Pierwsza sekcja - lorem ipsum-->
-      <section class="first-section">
+      <section class="first-section" class="container">
         <ul class="first-section-list">
-          <li class="li">
+          <li class="list">
             <h4 class="h4">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="list">
             <h4 class="h4">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="list">
             <h4 class="h4">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="list">
             <h4 class="h4">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -84,7 +90,7 @@
       </section>
 
       <!--Druga sekcja - czym się zajmujemy-->
-      <section class="second-section">
+      <section class="second-section" class="container">
         <h2 class="h2-second-section">Czym się zajmujemy</h2>
         <ul class="second-section-list">
           <li>
@@ -115,9 +121,9 @@
       </section>
 
       <!--Trzecia sekcja - nasz zespół-->
-      <section class="third-section">
+      <section class="third-section" class="container">
         <h2 class="h2-third-section">Nasz zespół</h2>
-        <ul class="third section-list">
+        <ul class="third-section-list">
           <li>
             <img
               src="./images/johndoe1.jpg"
@@ -164,31 +170,33 @@
 
     <!--Stopka-->
     <footer>
-      <!--Logo w stopce-->
-      <a class="logo-footer" href="./index.html"
-        ><span class="logo-blue-footer">Web</span>Studio</a
-      >
-
-      <!--Adres i linki w stopce-->
-      <section>
-        <a
-          class="address-link"
-          href="https://goo.gl/maps/Dz4RchG2dV1VJyud7"
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          >m. Warszawa, Aleje Jerozolimskie 21</a
+      <div class="footer" class="container">
+        <!--Logo w stopce-->
+        <a class="logo-footer" href="./index.html"
+          ><span class="logo-blue-footer">Web</span>Studio</a
         >
-        <ul class="contact-footer">
-          <li>
-            <a class="mail-footer" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </section>
+
+        <!--Adres i linki w stopce-->
+        <section>
+          <a
+            class="address-link"
+            href="https://goo.gl/maps/Dz4RchG2dV1VJyud7"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            >m. Warszawa, Aleje Jerozolimskie 21</a
+          >
+          <ul class="contact-footer">
+            <li>
+              <a class="mail-footer" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
