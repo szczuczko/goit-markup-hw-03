@@ -45,7 +45,7 @@
     <!--Główna zawartość strony-->
     <main>
       <!--Menu strony-->
-      <div>
+      <div class="container">
         <ul class="pf-button-menu">
           <li>
             <button class="pf-button-blue" type="button">Wszytkie</button>
@@ -59,7 +59,7 @@
 
       <!--Zawartość główna strony-->
       <!--Pierwszy rząd-->
-      <section>
+      <section class="container">
         <ul class="pf-section">
           <li>
             <img
@@ -91,12 +91,6 @@
             <h2 class="h2-pf-section">Restauracja Seafood</h2>
             <p>Aplikacja</p>
           </li>
-        </ul>
-      </section>
-
-      <!--Drugi rząd-->
-      <section>
-        <ul class="pf-section">
           <li>
             <img
               src="./images/portfolio2_1.jpg"
@@ -127,12 +121,6 @@
             <h2 class="h2-pf-section">Inspiration has no Borders</h2>
             <p>Strona internetowa</p>
           </li>
-        </ul>
-      </section>
-
-      <!--Trzeci rząd-->
-      <section>
-        <ul class="pf-section">
           <li>
             <img
               src="./images/portfolio3_1.jpg"
@@ -170,20 +158,24 @@
     <!--Stopka-->
     <footer>
       <!--Logo w stopce-->
-      <a class="logo-footer" href="./index.html"
-        ><span class="logo-blue-footer">Web</span>Studio</a
-      >
+      <div class="container">
+        <div class="footer-logo">
+          <a class="logo-footer" href="./index.html"
+            ><span class="logo-blue-footer">Web</span>Studio</a
+          >
+        </div>
 
-      <!--Adres i linki w stopce-->
-      <section>
-        <a
-          class="address-link"
-          href="https://goo.gl/maps/Dz4RchG2dV1VJyud7"
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          >m. Warszawa, Aleje Jerozolimskie 21</a
-        >
+        <!--Adres i linki w stopce-->
         <ul class="contact-footer">
+          <li>
+            <a
+              class="address-link"
+              href="https://goo.gl/maps/Dz4RchG2dV1VJyud7"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
+          </li>
           <li>
             <a class="mail-footer" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -193,7 +185,7 @@
             <a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
